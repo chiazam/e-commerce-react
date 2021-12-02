@@ -55,10 +55,10 @@ class TopHeader extends Component {
 
                 <div className="flex items-center mr-7">
                     <p className="mr-1">Wishlist</p>
-                    <HeartSvg className="h-3.5 w-3.5"/>
+                    <HeartSvg className="h-3.5 w-3.5 fill-current text-white"/>
                 </div>
 
-                <CartSvg className="h-6 w-6"/>
+                <CartSvg className="text-white fill-current h-6 w-6"/>
             </section>
         </div>
     }

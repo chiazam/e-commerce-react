@@ -8,8 +8,17 @@ module.exports = {
       'josefin-sans':['josefin-sans']
     },
     extend: {
+      boxShadow:{
+        "product":"0px 0px 25px rgba(0, 0, 0, 0.1);"
+      },
       colors:{
-        violet:'#7E33E0'
+        violet:'#7E33E0',
+        "brand-pink": "#F701A8",
+        "cyan": "#05E6B7",
+        "brand-blue": "#00009D",
+        "product-gray":"#F6F7FB",
+        "brand-green": "#08D15F",
+        "light-blue":"#1389FF"
       },
       spacing: {
         '1/2': '50%',
@@ -42,7 +51,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      width:['group-hover'],
+      height:['group-hover'],
+      display:['group-hover']
+    },
   },
   plugins: [],
 }
