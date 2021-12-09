@@ -1,5 +1,5 @@
 export const ZoomSvg = (props) => {
-const rand = Math.random() + String(new Date)
+const rand = Math.random() + String(new Date())
   return <svg
     width={15}
     height={15}
